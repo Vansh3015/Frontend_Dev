@@ -1,0 +1,71 @@
+body {
+  background-color: #1e1e1e;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background-color: #2e2e2e;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.display {
+  background-color: #000;
+  color: #fff;
+  font-size: 2em;
+  text-align: right;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  height: 50px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 10px;
+}
+
+td {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  user-select: none;
+}
+
+/* Top blue buttons (AC, ÷, ×) */
+.blue {
+  background-color: #6ecfce;
+  color: black;
+  font-weight: bold;
+}
+
+/* Yellow buttons (+, -, =, etc.) */
+.yellow {
+  background-color: #b19628;
+  color: black;
+  font-weight: bold;
+}
+
+/* Number buttons (gray tone) */
+.num {
+  background-color: #4a4a4a;
+}
+
+/* Hover effect for interactivity */
+td:hover {
+  filter: brightness(1.2);
+}
+
+/* Optional – zero button style if you add one spanning two columns */
+.zero {
+  width: 130px;
+}
