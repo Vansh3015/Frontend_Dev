@@ -6,4 +6,4 @@ class Product{
  details(){ return `${this.name} - Rs.${this.price} (${this.category})`; }
 }
 let products=[new Product(1,"Phone",1500,"Electronics"),new Product(2,"Pen",50,"Stationery")];
-console.log(products.filter(p=>p.price>1000));
+console.log(products.filter(p=>p.price>1000))
